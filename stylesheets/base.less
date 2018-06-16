@@ -27,12 +27,17 @@
 
     .line-number {
       &.cursor-line {
-        background-color: @syntax-gutter-background-color-selected;
+        font-weight: bold;
         color: @syntax-gutter-text-color-selected;
       }
 
       &.cursor-line-no-selection {
         color: @syntax-gutter-text-color-selected;
+      }
+
+      &.bracket-matcher {
+        color: inherit;
+        background-color: inherit;
       }
     }
   }
@@ -48,6 +53,7 @@
   }
 
   .cursor {
+    border-width: 2px;
     color: @syntax-cursor-color;
   }
 

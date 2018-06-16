@@ -1,10 +1,10 @@
 {
-  "name": "template-syntax",
+  "name": "adopt-syntax",
   "theme": "syntax",
   "version": "0.3.0",
   "private": false,
-  "description": "A template syntax theme to build from",
-  "repository": "https://github.com/atom/template-syntax",
+  "description": "Sync with Adapta Desktop Theme",
+  "repository": "https://github.com/nrfaikar/adopt-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
