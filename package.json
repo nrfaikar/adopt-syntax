@@ -1,7 +1,7 @@
 {
   "name": "adopt-syntax",
   "theme": "syntax",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "private": false,
   "description": "Sync with Adapta Desktop Theme",
   "repository": "https://github.com/nrfaikar/adopt-syntax",
