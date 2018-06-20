@@ -26,6 +26,7 @@
     color: @syntax-gutter-text-color;
 
     .line-number {
+      margin-left: 1px;
       &.cursor-line {
         font-weight: bold;
         color: @syntax-gutter-text-color-selected;
@@ -179,7 +180,7 @@
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: @dark-red;
   }
 
 }
