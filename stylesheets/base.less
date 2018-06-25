@@ -53,15 +53,19 @@ atom-text-editor {
     color: @syntax-cursor-color;
   }
 
-  .selection .region,
   .lines .line.cursor-line,
+  .line-number.cursor-line,
   .line-number.bracket-matcher.bracket-matcher {
     background-color:rgba(0, 188, 212, .05);
   }
 
+  .selection .region,
+  .bracket-matcher .region {
+    background-color: rgba(0, 188, 212, .1);
+  }
+
   .bracket-matcher .region {
     border-bottom: 1px solid rgba(0, 188, 212, .75);
-    background-color: rgba(0, 188, 212, .05);
     z-index: 100;
   }
 }
